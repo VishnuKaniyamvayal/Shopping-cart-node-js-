@@ -1,0 +1,26 @@
+<h1 style="display: flex; justify-content: center; margin: 30px;">Add Product Details</h1>
+
+<form action="/admin/add-products" method="POST" enctype="multipart/form-data">
+  <div  style="width: 500px; margin-left: auto; margin-right: auto;">
+    <label for="formGroupExampleInput" style="margin: 8px;">Name:</label>
+    <input name="name" type="text" class="form-control" id="formGroupExampleInput" placeholder="Ex:Samsung m31">
+  </div>
+  <div  style="width: 500px; margin-left: auto; margin-right: auto;">
+    <label for="formGroupExampleInput" style="margin: 8px;">Category</label>
+    <input name="category" type="text" class="form-control" id="formGroupExampleInput" placeholder="Ex:Mobile">
+  </div>
+  <div  style="width: 500px; margin-left: auto; margin-right: auto;">
+    <label for="formGroupExampleInput" style="margin: 8px;">Description</label>
+    <input name="description" type="text" class="form-control" id="formGroupExampleInput" style="height: 100px;">
+  </div>
+  <div  style="width: 500px; margin-left: auto; margin-right: auto;">
+    <label for="formGroupExampleInput" style="margin: 8px;">Price</label>
+    <input name="price" type="number" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div  style="width: 500px; margin-left: auto; margin-right: auto; margin-top: 30px; flex">
+    <label name="image" for="exampleFormControlFile1" style="margin-bottom: 6px;">Upload image</label>
+    <br>
+    <input name="image" type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+  <button type="submit" class="btn btn-primary" style="margin-left: 63%;">Submit</button>
+   </form>
